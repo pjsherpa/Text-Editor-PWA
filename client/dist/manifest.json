@@ -36,5 +36,5 @@
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
-  "description": "Weclome to the world of PWA!"
+  "description": "Welcome to the world of PWA!"
 }

@@ -33,7 +33,7 @@ module.exports = () => {
         inject: true,
         name: "J.A.T.E.",
         short_name: "Jate",
-        description: "Weclome to the world of PWA!",
+        description: "Welcome to the world of PWA!",
         start_url: "./",
         publicPath: "./",
         icons: [
