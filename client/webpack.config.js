@@ -34,8 +34,6 @@ module.exports = () => {
         name: "J.A.T.E.",
         short_name: "Jate",
         description: "Weclome to the world of PWA!",
-        background_color: "#225ca3",
-        theme_color: "#225ca3",
         start_url: "./",
         publicPath: "./",
         icons: [
@@ -53,7 +51,7 @@ module.exports = () => {
       rules: [
         {
           test: /\.css$/i,
-          use: ["style.loader", "css-loader"],
+          use: ["style-loader", "css-loader"],
         },
         {
           test: /\.m?js$/,
