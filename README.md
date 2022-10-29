@@ -10,7 +10,7 @@
 
 ### Project Description:
 
-Progressive web application, allows us to create application and install them in our local devices.
+Progressive web application, allows us to create web-application that looks and behaves as if it is a mobile app with an installation feature, which allows us to store in our local devices.
 
 How it works:
 
