@@ -19,8 +19,9 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
+        favicon: "./favicon.ico",
         template: "./index.html",
-        title: "J.A.T.E.",
+        title: "JATE",
       }),
 
       new InjectManifest({
@@ -31,11 +32,13 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "J.A.T.E.",
-        short_name: "Jate",
+        name: "Text Editor",
+        short_name: "JATE",
         description: "Welcome to the world of PWA!",
-        start_url: "./",
-        publicPath: "./",
+        background_color: "#225ca3",
+        theme_color: "#225ca3",
+        start_url: "/",
+        publicPath: "/",
         icons: [
           {
             src: path.resolve("src/images/logo.png"),
